@@ -1,4 +1,54 @@
 # Registration
+<!DOCTYPE html>
+<html>
+<form>  
+    <head>  
+        <h1>My Registration Form</h1>
+    </head>
+    <body>
+        <h3>    
+            <p>
+                <label>First Name:<input type="text" name="first name"></label>
+            </p>
+            <p>
+                <label>Last Name:<input type="text" name="last name"></label>
+            </p>
+            <p>
+                <lable>Email:<input type="text" name="email"></lable>
+            </p>
+            <p>
+                <label>Password:<input type="password" name="password"></label>
+            </p>
+            <p>
+                <label> PW Confirm:<input type="password" name="password"></label>
+            </p>
+            <p>
+                <label> Birthday:<input type="date" name="birthday"></label>
+            </p>
+            <p>
+                <label>Male<input type="radio" name="gender" value="male"></label>
+                <label>Female<input type="radio" name="gender" value="female"></label>
+                <label>Other<input type="radio" name="gender" value="decline"></label>
+            <p>
+                <label>A short description about yourself:</label>
+            </p>
+            <p>
+                <textarea name="A short description about yourself:"></textarea>
+            </p>
+            <p>
+                <label>Favorite Language</label> 
+                <select name="Language">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="C++">C++</option>
+                </select>
+            </p>
+        </h3>
+    </body>
+</form>
+
+</html>
+
 
 <div class="row">
   <section class="section">
