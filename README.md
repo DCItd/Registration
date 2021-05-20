@@ -7,20 +7,22 @@
     </head>
     <body>
          <h4>
-<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle"    placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
-             
+<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
+    
+Gender:
 <label>Male<input type="radio" name="gender"  value="male"></label>
 <label>Female<input type="radio" name="gender"  value="female"></label>
 <label>Other<input type="radio" name="gender"  value="decline"></label>
 
+Marriage Status:
+<label>Male<input type="radio" name="marriage"  value="Single"></label>
+<label>Female<input type="radio" name="marriage"  value="Married"></label>
+<label>Other<input type="radio" name="marriage"  value="Divorced"></label>   
 
-<div class="form-item-double box-item">
-<div class="form-item ">
-<input type="text" name="strNumber" placeholder="Street Number" data-required data-number>
-</div>
-<div class="form-item">
-<input type="text" name="zCode" placeholder="Zip Code" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>
-</div>
+
+<input type="text" name="adress" placeholder="Adress Of Participant" data-required data-number>   
+<input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>   
+<space> <space> <space>
 <div class="form-item box-item">
 <input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
           <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
