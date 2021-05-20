@@ -7,29 +7,22 @@
     </head>
     <body>
          <h4>
-         </div>
-<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle"    placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>     
- 
-</div>
+<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle"    placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
+             
 <label>Male<input type="radio" name="gender"  value="male"></label>
 <label>Female<input type="radio" name="gender"  value="female"></label>
 <label>Other<input type="radio" name="gender"  value="decline"></label>
 
 
 <div class="form-item-double box-item">
-          <div class="form-item ">
-            <input type="text" name="strNumber" placeholder="Street Number" data-required data-number>
-            <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
-            <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
-          </div>
-          <div class="form-item">
-            <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>
-            <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
-            <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
-          </div>
-        </div>
-        <div class="form-item box-item">
-          <input type="text" name="mobile" placeholder="Mobile" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work" data-required data-number data-count="10">
+<div class="form-item ">
+<input type="text" name="strNumber" placeholder="Street Number" data-required data-number>
+</div>
+<div class="form-item">
+<input type="text" name="zCode" placeholder="Zip Code" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>
+</div>
+<div class="form-item box-item">
+<input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
           <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
           <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
           <small class="errorChar"><i class="fa fa-asterisk" aria-hidden="true"></i> must be 10 digits</small>
@@ -37,7 +30,7 @@
         <div class="form-item">
           <span id="submit" class="submit">Submit</span>
         </div>
-      </form>
+    </form>
             
                 
 ## XXXX
