@@ -23,6 +23,7 @@ Marriage Status:
         <h4>    
             <p>
                 <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>   
+            <p>
             </p>
             <p>
                 <label>Last Name:<input type="text" name="last name"></label>
