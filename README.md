@@ -10,7 +10,7 @@
 <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
     
 Gender:<space>
-<label>Male<input type="radio" name="gender" value="male"></label> <space>
+<label>Male<input type="radio" name="gender" value="male"><space></label> <space>
 <label>Female<input type="radio" name="gender" value="female"></label> <space>
 <label>Other<input type="radio" name="gender"  value="decline"></label>
 <space> <space>
