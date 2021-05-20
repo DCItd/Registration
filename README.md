@@ -19,9 +19,9 @@
                     <option value="Bachelor's Degree">BachelorDegree</option>
                     <option value="Master's Degree">MasterDegree</option>
                     <option value="Doctoral Degree">DoctoralDegree</option>           
+            <p>
             </p>
             <p>
-              <div class="radio-label"> 
               <label class="label">Gender</label>
               <div class="form-item"> 
               <input id="Male" type="radio" name="gender" value="Male" data-once>
