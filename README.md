@@ -1,12 +1,5 @@
-# Registration
+# Dean Counseling Inc. Registration Information</h1>
 
-<html>
-<form>  
-    <head>  
-        <h1>Dean Counseling Inc. Registration Information</h1>
-    </head>
-    <body>
-         <h4>
 <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
     
 Gender:<space>
