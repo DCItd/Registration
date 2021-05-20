@@ -1,6 +1,4 @@
-# Dean Counseling Inc. Registration Information
 
-<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
   </div>
         <div class="form-item box-item">
           <div class="form-item-triple">
@@ -32,23 +30,17 @@ Marriage Status:
 <input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>   
 <space> <space> <space>
 <div class="form-item box-item">
-<input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
-
-<div class="form-item">
-          <span id="submit" class="submit">Submit</span>
-        </div>
-    </form>
+<input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10"
             
 
 <form>  
     <head>  
-        <h1>My Registration Form</h1>
+        <h2>DCI Registration</h2>
     </head>
     <body>
         <h4>    
             <p>
-                <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>  
-                <label>First Name:<input type="text" name="first name"></label>
+                <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>
             </p>
             <p>
                 <label>Last Name:<input type="text" name="last name"></label>
