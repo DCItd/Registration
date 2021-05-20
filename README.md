@@ -5,13 +5,12 @@
     <body>
         <h4>    
             <p>
-                <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>   
+               <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>   
             <p>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number" id="years" name="Age" placeholder=" - " data-required> <space> <space> <space> <label>Education Level:</label> 
-                <select name="Education Level">
-                    <option value="Blank"> - </option>
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number" id="years" name="Age" placeholder="" data-required> <space> <space> <space> <label>Education Level:</label> 
+                <select name="Education Level" placeholder="" data-required>
                     <option value="Elementary School">ElementarySchool</option>
                     <option value="Middle School">MiddleSchool</option>
                     <option value="High School">HighSchool</option>
@@ -19,8 +18,7 @@
                     <option value="Associate Degree">AssociateDegree</option>
                     <option value="Bachelor's Degree">BachelorDegree</option>
                     <option value="Master's Degree">MasterDegree</option>
-                    <option value="Doctoral Degree">DoctoralDegree</option> 
-                    </select>     
+                    <option value="Doctoral Degree">DoctoralDegree</option>           
             </p>
             <p>
               <div class="radio-label"> 
