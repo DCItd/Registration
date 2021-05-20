@@ -27,8 +27,27 @@
                     <option value="Associate Degree">AssociateDegree</option>
                     <option value="Bachelor's Degree">BachelorDegree</option>
                     <option value="Master's Degree">MasterDegree</option>
-                    <option value="Doctoral Degree">DoctoralDegree</option>
-                </select>          
+                    <option value="Doctoral Degree">DoctoralDegree</option>   
+                </select>             
+            </p>
+            <p>
+              <div class="radio-label"> 
+              <label class="label">Gender</label>
+              <div class="form-item"> 
+              <input id="Male" type="radio" name="gender" value="Male" data-once>
+              <label for="Male">Male</label>
+              <div class="form-item"> 
+              <input id="Female" type="radio" name="gender" value="Female" data-once>
+              <label for="Female">Female</label>
+            </p>
+            <p>
+                <label>Password:<input type="password" name="password"></label>
+            </p>
+            <p>
+                <label> PW Confirm:<input type="password" name="password"></label>
+            </p>
+            <p>
+               <label> PW Confirm:<input type="password" name="password"></label>
             </p>
             <p>
                 <lable>Email:<input type="text" name="email"></lable>
