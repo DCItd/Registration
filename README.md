@@ -40,10 +40,6 @@
             <p>
             </p>
             <p>
-                <label> PW Confirm:<input type="password" name="password"></label>
-            <p>
-            </p>
-            <p>
                <input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
             <p>
             </p>
@@ -67,7 +63,7 @@
                 Marriage Status:   
 <label>Single <input type="radio" name="marriage" value="Single"></label>
 <label>Married <input type="radio" name="marriage" value="Married"></label>
-<label>Divorced <input type="radio" name="marriage" value="Divorced"></label>   
+<label>Divorced <input type="radio" name="marriage" value="Divorced"></label>       
             <p>
             </p>
             <p>
