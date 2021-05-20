@@ -23,8 +23,7 @@
             <p>
             </p>
             <p>
-              <label for="label">Gender</label>
-              <div class="form-item"> 
+              <label>Gender</label>
               <input id="Male" type="radio" name="gender" value="Male" data-once>
               <label for="Male">Male</label>
               <div class="form-item"> 
