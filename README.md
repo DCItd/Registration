@@ -26,7 +26,7 @@ Marriage Status:
             <p>
             </p>
             <p>
-                <label>Last Name:<input type="text" name="last name"></label>
+                <label> DOB:<input type="date" name="dob"></label> <space> <space> <space> 
             </p>
             <p>
                 <lable>Email:<input type="text" name="email"></lable>
