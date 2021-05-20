@@ -9,11 +9,11 @@
          <h4>
 <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
     
-Gender:
-<label>Male<input type="radio" name="gender"  value="male"></label>
-<label>Female<input type="radio" name="gender"  value="female"></label>
+Gender:<space>
+<label>Male<input type="radio" name="gender" value="male"></label> <space>
+<label>Female<input type="radio" name="gender" value="female"></label> <space>
 <label>Other<input type="radio" name="gender"  value="decline"></label>
-
+<space> <space>
 Marriage Status:
 <label>Male<input type="radio" name="marriage"  value="Single"></label>
 <label>Female<input type="radio" name="marriage"  value="Married"></label>
