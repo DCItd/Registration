@@ -1,6 +1,7 @@
 # Registration
 #XXX
-
+<input type="text" name="name" placeholder="Name" data-required> <space> <space> <input type="text" name="name" placeholder="Name" data-required>
+    </P>
 ## XXXX
 <!DOCTYPE html>
 <html>
