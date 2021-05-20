@@ -8,8 +8,13 @@
     <body>
         <h3>    
             <p>
-<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Name" data-required>
-    </P>
+             <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle"    placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>
+                <p>
+                <label>Male<input type="radio" name="gender" value="male"></label>
+                <label>Female<input type="radio" name="gender" value="female"></label>
+                <label>Other<input type="radio" name="gender" value="decline"></label>
+            <p>
+                
 ## XXXX
 <!DOCTYPE html>
 <html>
