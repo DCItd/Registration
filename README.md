@@ -12,7 +12,7 @@ Marriage Status:
 <input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>   
 <space> <space> <space>
 <div class="form-item box-item">
-<input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10"
+<input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
             
 
 <form>  
@@ -26,7 +26,7 @@ Marriage Status:
             <p>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <input type="number" name="age" placeholder="Age"> <space> <space> <space> <label>Favorite Language</label> 
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <input type="number" name="age" placeholder="Age"> <space> <space> <space> <label>Education Level:</label> 
                 <select name="Education Level">
                     <option value="Elementary School">ElementarySchool</option>
                     <option value="Middle School">MiddleSchool</option>
