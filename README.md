@@ -16,8 +16,7 @@
 <label>Other<input type="radio" name="gender" value="decline"></label>
 
 
- </div>
-        <div class="form-item-double box-item">
+<div class="form-item-double box-item">
           <div class="form-item ">
             <input type="text" name="strNumber" placeholder="Street Number" data-required data-number>
             <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
