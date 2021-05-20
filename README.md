@@ -5,13 +5,10 @@
 Gender:<space>
 <label>Male<input type="radio" name="gender" value="male"></label>
 <label>Female<input type="radio" name="gender" value="female"></label> 
-<label>Other<input type="radio" name="gender"  value="decline"></label> <space> <space> <space> <space>
-    
-    
-Marriage Status:
-<label>Single<input type="radio" name="marriage"  value="Single"></label>
-<label>Married<input type="radio" name="marriage"  value="Married"></label>
-<label>Divorced<input type="radio" name="marriage"  value="Divorced"></label> <space> <space> <space>   
+<label>Other<input type="radio" name="gender" value="decline"></label> <space> <space> <space> Marriage Status:
+<label>Single<input type="radio" name="marriage" value="Single"></label>
+<label>Married<input type="radio" name="marriage" value="Married"></label>
+<label>Divorced<input type="radio" name="marriage" value="Divorced"></label>   
 
 <input type="text" name="adress" placeholder="Adress Of Participant" data-required data-number>   
 <input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>   
