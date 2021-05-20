@@ -1,11 +1,3 @@
-
-<input type="text" name="adress" placeholder="Address Of Participant" data-required data-number>   
-<input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>   
-<space> <space> <space>
-<div class="form-item box-item">
-<input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
-            
-
 <form>  
     <head>  
         <h2>DCI Registration</h2>
@@ -41,13 +33,14 @@
               <label for="Female">Female</label>
             </p>
             <p>
-                <label>Password:<input type="password" name="password"></label>
+               <input type="text" name="adress" placeholder="Address Of Participant" data-required data-number>        
+               <input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>  
             </p>
             <p>
                 <label> PW Confirm:<input type="password" name="password"></label>
             </p>
             <p>
-               <label> PW Confirm:<input type="password" name="password"></label>
+               <input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
             </p>
             <p>
                 <lable>Email:<input type="text" name="email"></lable>
