@@ -3,7 +3,7 @@
 <html>
 <form>  
     <head>  
-        <h1>Dean Counseling Registration</h1>
+        <h1>Dean Counseling Inc. Registration Information</h1>
     </head>
     <body>
         <h3>    
