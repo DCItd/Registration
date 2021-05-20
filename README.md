@@ -3,16 +3,13 @@
 <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
     
 Gender:<space>
-<label>Male<input type="radio" name="gender" value="male"></label> <space>
-<label>Female<input type="radio" name="gender" value="female"></label> <space>
-<label>Other<input type="radio" name="gender"  value="decline"></label>
-<space> <space>
-
+<label>Male<input type="radio" name="gender" value="male"></label> <
+<label>Female<input type="radio" name="gender" value="female"></label> 
+<label>Other<input type="radio" name="gender"  value="decline"></label> <space> <space> <space> <space>
 Marriage Status:
-<label>Male<input type="radio" name="marriage"  value="Single"></label>
-<label>Female<input type="radio" name="marriage"  value="Married"></label>
-<label>Other<input type="radio" name="marriage"  value="Divorced"></label>   
-
+<label>Single <space> <input type="radio" name="marriage"  value="Single"></label>
+<label>Married <space> <input type="radio" name="marriage"  value="Married"></label>
+<label>Divorced <space> <input type="radio" name="marriage"  value="Divorced"></label> <space> <space> <space>   
 
 <input type="text" name="adress" placeholder="Adress Of Participant" data-required data-number>   
 <input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>   
