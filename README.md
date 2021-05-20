@@ -1,7 +1,23 @@
 # Dean Counseling Inc. Registration Information
 
 <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
-    
+  </div>
+        <div class="form-item box-item">
+          <div class="form-item-triple">
+            <div class="radio-label"> 
+              <label class="label">Gender</label>
+            </div>
+            <div class="form-item"> 
+              <input id="Male" type="radio" name="gender" value="Male" data-once>
+              <label for="Male">Male</label>
+            </div>
+            <div class="form-item"> 
+              <input id="Female" type="radio" name="gender" value="Female" data-once>
+              <label for="Female">Female</label>
+            </div>
+          </div>
+          <small class="errorOnce"><i class="fa fa-asterisk" aria-hidden="true"></i> choose at least one</small>
+        </div>   
 Gender:    
 <label>Male<input type="radio" name="gender" value="male"></label>
 <label>Female<input type="radio" name="gender" value="female"></label> 
