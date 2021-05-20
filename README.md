@@ -45,9 +45,9 @@ Marriage Status:
         <h1>My Registration Form</h1>
     </head>
     <body>
-        <h6>    
+        <h4>    
             <p>
-              <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>  
+                <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>  
                 <label>First Name:<input type="text" name="first name"></label>
             </p>
             <p>
