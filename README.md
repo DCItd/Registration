@@ -1,12 +1,12 @@
 Gender:    
-<label>Male<input type="radio" name="gender" value="male"></label>
-<label>Female<input type="radio" name="gender" value="female"></label> 
-<label>Other<input type="radio" name="gender" value="decline"></label> <space> <space> <space>     
+<label>Male <input type="radio" name="gender" value="male"></label>
+<label>Female <input type="radio" name="gender" value="female"></label> 
+<label>Other <input type="radio" name="gender" value="decline"></label> <space> <space> <space>     
     
 Marriage Status:   
-<label>Single<input type="radio" name="marriage" value="Single"></label>
-<label>Married<input type="radio" name="marriage" value="Married"></label>
-<label>Divorced<input type="radio" name="marriage" value="Divorced"></label>   
+<label>Single <input type="radio" name="marriage" value="Single"></label>
+<label>Married <input type="radio" name="marriage" value="Married"></label>
+<label>Divorced <input type="radio" name="marriage" value="Divorced"></label>   
 
 <input type="text" name="adress" placeholder="Address Of Participant" data-required data-number>   
 <input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>   
@@ -26,7 +26,10 @@ Marriage Status:
             <p>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number" </small> name="0" placeholder="Age"> <space> <space> <space> <label>Education Level:</label> 
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:  <input type="number" id="tentacles" name="tentacles"
+       min="10" max="100">
+
+<input type="number" </small> name="0" placeholder="Age"> <space> <space> <space> <label>Education Level:</label> 
                 <select name="Education Level">
                     <option value="Elementary School">ElementarySchool</option>
                     <option value="Middle School">MiddleSchool</option>
