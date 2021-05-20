@@ -9,7 +9,7 @@
             <p>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number" id="years" name="Age" placeholder="" data-required> <space> <space> <space> <label>Education Level:</label> 
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number" id="years" name="Age" min="10" max="100"> <space> <space> <space> <label>Education Level:</label> 
                 <select name="Education Level" placeholder="" data-required>
                     <option value="Elementary School">ElementarySchool</option>
                     <option value="Middle School">MiddleSchool</option>
