@@ -19,8 +19,7 @@
                     <option value="Associate Degree">AssociateDegree</option>
                     <option value="Bachelor's Degree">BachelorDegree</option>
                     <option value="Master's Degree">MasterDegree</option>
-                    <option value="Doctoral Degree">DoctoralDegree</option>   
-                </select>             
+                    <option value="Doctoral Degree">DoctoralDegree</option>                 
             </p>
             <p>
               <div class="radio-label"> 
