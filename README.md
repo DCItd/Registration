@@ -1,7 +1,8 @@
 Gender:    
 <label>Male <input type="radio" name="gender" value="male"></label>
 <label>Female <input type="radio" name="gender" value="female"></label> 
-<label>Other <input type="radio" name="gender" value="decline"></label> <space> <space> <space> Marriage Status:   
+<label>Other <input type="radio" name="gender" value="decline"></label>
+Marriage Status:   
 <label>Single <input type="radio" name="marriage" value="Single"></label>
 <label>Married <input type="radio" name="marriage" value="Married"></label>
 <label>Divorced <input type="radio" name="marriage" value="Divorced"></label>   
@@ -24,7 +25,7 @@ Gender:
             <p>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number" placeholder="0"> <space> <space> <space> <label>Education Level:</label> 
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number"> <space> <space> <space> <label>Education Level:</label> 
                 <select name="Education Level">
                     <option value="Elementary School">ElementarySchool</option>
                     <option value="Middle School">MiddleSchool</option>
