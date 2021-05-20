@@ -45,7 +45,7 @@ Marriage Status:
         <h1>My Registration Form</h1>
     </head>
     <body>
-        <h3>    
+        <h6>    
             <p>
                 <label>First Name:<input type="text" name="first name"></label>
             </p>
