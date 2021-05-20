@@ -26,10 +26,9 @@ Marriage Status:
             <p>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:  <input type="number" id="tentacles" name="tentacles"
-       min="10" max="100">
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:  <input type="number" id="tentacles" name="tentacles" min="1" max="100">
 
-<input type="number" </small> name="0" placeholder="Age"> <space> <space> <space> <label>Education Level:</label> 
+<input type="number" name="age" placeholder="0"> <space> <space> <space> <label>Education Level:</label> 
                 <select name="Education Level">
                     <option value="Elementary School">ElementarySchool</option>
                     <option value="Middle School">MiddleSchool</option>
