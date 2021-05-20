@@ -1,6 +1,14 @@
 # Registration
-#XXX
-<input type="text" name="name" placeholder="Name" data-required> <space> <space> <input type="text" name="name" placeholder="Name" data-required>
+
+<html>
+<form>  
+    <head>  
+        <h1>Dean Counseling Registration</h1>
+    </head>
+    <body>
+        <h3>    
+            <p>
+<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Name" data-required>
     </P>
 ## XXXX
 <!DOCTYPE html>
