@@ -1,11 +1,3 @@
-Gender:    
-<label>Male <input type="radio" name="gender" value="male"></label>
-<label>Female <input type="radio" name="gender" value="female"></label> 
-<label>Other <input type="radio" name="gender" value="decline"></label>
-Marriage Status:   
-<label>Single <input type="radio" name="marriage" value="Single"></label>
-<label>Married <input type="radio" name="marriage" value="Married"></label>
-<label>Divorced <input type="radio" name="marriage" value="Divorced"></label>   
 
 <input type="text" name="adress" placeholder="Address Of Participant" data-required data-number>   
 <input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>   
@@ -47,7 +39,15 @@ Marriage Status:
                 <label> PW Confirm:<input type="password" name="password"></label>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label>
+                Gender:    
+<label>Male <input type="radio" name="gender" value="male"></label>
+<label>Female <input type="radio" name="gender" value="female"></label> 
+<label>Other <input type="radio" name="gender" value="decline"></label>
+                Marriage Status:   
+<label>Single <input type="radio" name="marriage" value="Single"></label>
+<label>Married <input type="radio" name="marriage" value="Married"></label>
+<label>Divorced <input type="radio" name="marriage" value="Divorced"></label>   
+
             </p>
             <p>
                 <label>Male<input type="radio" name="gender" value="male"></label>
