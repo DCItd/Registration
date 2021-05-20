@@ -8,7 +8,7 @@ Marriage Status:
 <label>Married<input type="radio" name="marriage" value="Married"></label>
 <label>Divorced<input type="radio" name="marriage" value="Divorced"></label>   
 
-<input type="text" name="adress" placeholder="Adress Of Participant" data-required data-number>   
+<input type="text" name="adress" placeholder="Address Of Participant" data-required data-number>   
 <input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>   
 <space> <space> <space>
 <div class="form-item box-item">
@@ -22,11 +22,16 @@ Marriage Status:
     <body>
         <h4>    
             <p>
-                <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>   
+                <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>  <label>Favorite Language</label> 
+                <select name="Language">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="C++">C++</option>
+                </select>  
             <p>
             </p>
             <p>
-                <label> DOB:<input type="date" name="dob"></label> <space> <space> <space> 
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <input type="text" name="age" placeholder="Age"> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name">
             </p>
             <p>
                 <lable>Email:<input type="text" name="email"></lable>
