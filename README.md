@@ -26,7 +26,7 @@ Marriage Status:
             <p>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <input type="number" name="age" placeholder="Age"> <space> <space> <space> <label>Education Level:</label> 
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number" </small> name="0" placeholder="Age"> <space> <space> <space> <label>Education Level:</label> 
                 <select name="Education Level">
                     <option value="Elementary School">ElementarySchool</option>
                     <option value="Middle School">MiddleSchool</option>
@@ -36,7 +36,7 @@ Marriage Status:
                     <option value="Bachelor's Degree">BachelorDegree</option>
                     <option value="Master's Degree">MasterDegree</option>
                     <option value="Doctoral Degree">DoctoralDegree</option>
-                </select>  
+                </select>      
             </p>
             <p>
                 <lable>Email:<input type="text" name="email"></lable>
