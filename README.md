@@ -1,4 +1,117 @@
 # Registration
+#XXX
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Venture Garden Registration Form</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" type = "text/css" href="form.css"/>
+    </head>
+    <body>
+        <h1 id="caption">Venture Garden Registration Form</h1>
+        <div class="formstage">
+            <form id = "venture-form"  onsubmit=" return validate()">
+                <p class ="description">Let Us know you better</p>
+                <div class = "row-tab">
+                    <div class="label-venture">
+                        <label>*Name</label>
+                    </div>
+                    <div class="input-venture">
+                        <input id = "name" type = "text" placeholder="Name"></input>
+                    </div>
+                </div>
+                <div class = "row-tab">
+                    <div class="label-venture">
+                        <label>*Email</label>
+                    </div>
+                    <div class="input-venture">
+                        <input id = "email" type = "text" placeholder="Email">
+                    </div>
+                </div>
+                
+                <div class = "row-tab">
+                    <div class="label-venture">
+                        <label>*Age</label>
+                    </div>
+                    <div class="input-venture">
+                        <input id = "age" type = "number" placeholder="Age">
+                    </div>
+                </div>
+                <div class = "row-tab">
+                    <div class="label-venture">
+                        <label>*Password</label>
+                    </div>
+                    <div class="input-venture">
+                        <input id = "password" type = "password" placeholder="Password">
+                    </div>
+                </div>
+                <div class = "row-tab">
+                    <div class="label-venture">
+                        <label>*Confirm Password</label>
+                    </div>
+                    <div class="input-venture">
+                        <input id = "confirm_password" type = "password" placeholder="Confirm Password">
+                    </div>
+                </div>
+                <div class = "row-tab">
+                    <div class="label-select">
+                        <label>Which option best describes your technology stack?</label>
+                    </div>
+                    <div class="select-input">
+                        <select id = "dropdown">
+                            <option value ="select stack"></option>
+                            <option value="frontend">FrontEnd</option>
+                            <option value= "backend"> Backend</option>
+                            <option value = "devops">Devops</option>
+                            <option value = " Qualityassurance">Quality Assurance</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="row-tab">
+                    <div class="label-radio">
+                        What is your Proficiency Level?
+                    </div>
+                    <div class="input-radio">
+                        <div>
+                            <label>
+                                <input type="radio" name="feedback" value = "beginner">
+                            </label> Beginner
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="feedback" value = "intermediate">
+                            </label>Intermediate
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="feedback" value = "advanced">
+                            </label> Advanced
+                        </div>
+                        <div>
+                            <label>
+                                <input type="radio" name="feedback" value = "expert">
+                            </label> Expert
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row-tab">
+                    <div class="text-area">
+                        Any comments or observation?
+                    </div>
+                    <textarea id="comment" type></textarea>
+                </div>
+                <div class="row-tab">
+                    <div class="submit-button">Submit Here: </div>
+                    <input class = "button" type = "submit"> 
+                </div>
+            </form>
+        </div>
+    </body>
+    <script src="logic.js"></script>
+</html>
+#xxx
 <!DOCTYPE html>
 <html>
 <head>
