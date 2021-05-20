@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="form-item box-item">
-          <input type="text" name="phone" placeholder="Phone" data-required data-number data-count="10">
+          <input type="text" name="mobile" placeholder="Mobile" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work" data-required data-number data-count="10">
           <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
           <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
           <small class="errorChar"><i class="fa fa-asterisk" aria-hidden="true"></i> must be 10 digits</small>
