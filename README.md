@@ -40,6 +40,18 @@
                 <label> PW Confirm:<input type="password" name="password"></label>
             </p>
             <p>
+            <div class="radio-label"> 
+              <label class="label">Gender</label>
+            </div>
+            <div class="form-item"> 
+              <input id="Male" type="radio" name="gender" value="Male" data-once>
+              <label for="Male">Male</label>
+            </div>
+            <div class="form-item"> 
+              <input id="Female" type="radio" name="gender" value="Female" data-once>
+              <label for="Female">Female</label>
+            </div>
+          </div>
                 Gender:    
 <label>Male <input type="radio" name="gender" value="male"></label>
 <label>Female <input type="radio" name="gender" value="female"></label> 
