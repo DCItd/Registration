@@ -1,54 +1,5 @@
 # Registration
 #XXX
-<form>
-	<label for="first_name">First Name:</label>
-	<input type="text" id="first_name" name="first_name">
-
-	<p></p>
-	<label for="last_name">Last Name:</label>
-	<input type="text" id="last_name" name="last_name">
-
-	<p></p>
-	<label for="email">Email</label>
-	<input type="text" id=email name="email">
-
-	<p></p>
-	<label for="password">Password</label>
-	<input type="password" id="password" name="password">
-
-	<p></p>
-	<label for="pwconfirm">PW Confirm</label>
-	<input type="password" id="pwconfirm" name="pwconfirm">
-
-	<p></p>
-	<label for="datetime-local">Birthday</label>
-	<input type="datetime-local" id="datetime-local" name="datetime-local">
-
-	<p></p>
-	<label for="male">Male</label>
-	<input type="radio" id=male name="gender" value="male">
-	<label for="female">Female</label>
-	<input type="radio" id=female name="gender" value="female">
-	<label for="other">Other</label>
-	<input type="radio" id=decline name="gender" value="decline">
-
-	<p>Say a few words about yourself:</p>
-	<textarea name="description"></textarea>
-
-	<p></p>
-	Favorite Language	<select>
-		
-		<option value="javascript">Javascript</option>
-		<option value="testing">Testing</option>
-	</select>
-
-	<p></p>
-	<input type="submit" value="Submit">
-
-
-
-
-</form>
 
 ## XXXX
 <!DOCTYPE html>
