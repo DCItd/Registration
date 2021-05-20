@@ -21,10 +21,7 @@ Gender:<space>
         </div>
     </form>
             
-                
-## XXXX
-<!DOCTYPE html>
-<html>
+
 <form>  
     <head>  
         <h1>My Registration Form</h1>
