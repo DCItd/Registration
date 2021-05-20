@@ -17,7 +17,12 @@
             <p>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number"> <space> <space> <space> <label>Education Level:</label> 
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <label> Age:<input type="number" id="years" name="Age"
+       min="1" max="99">
+
+
+                        
+                        <input type="number"> <space> <space> <space> <label>Education Level:</label> 
                 <select name="Education Level">
                     <option value="Elementary School">ElementarySchool</option>
                     <option value="Middle School">MiddleSchool</option>
