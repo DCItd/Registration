@@ -6,14 +6,14 @@
         <h1>Dean Counseling Inc. Registration Information</h1>
     </head>
     <body>
-         <h5>
+         <h4>
          </div>
-<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle"    placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>
+<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle"    placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>     
  
- </div>
-<label>Male<input type="radio" name="gender" value="male"></label>
-<label>Female<input type="radio" name="gender" value="female"></label>
-<label>Other<input type="radio" name="gender" value="decline"></label>
+</div>
+<label>Male<input type="radio" name="gender"  value="male"></label>
+<label>Female<input type="radio" name="gender"  value="female"></label>
+<label>Other<input type="radio" name="gender"  value="decline"></label>
 
 
 <div class="form-item-double box-item">
