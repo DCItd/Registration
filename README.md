@@ -1,105 +1,54 @@
 # Registration
 #XXX
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+<form>
+	<label for="first_name">First Name:</label>
+	<input type="text" id="first_name" name="first_name">
 
-<div class="testbox">
-  <h1>OpTimízate!</h1>
+	<p></p>
+	<label for="last_name">Last Name:</label>
+	<input type="text" id="last_name" name="last_name">
 
-  <form action="/">
-      <hr>
-    <div class="accounttype">
-      <input type="radio" value="None" id="radioOne" name="account" >
-      <label for="radioOne" class="radio" chec>Personal</label>
-      <input type="radio" value="None" id="radioTwo" name="account" checked/>
-      <label for="radioTwo" class="radio">Empresa</label>
-    </div>
-  <hr>
-    <label id="icon" for="name"><i class="icon-user"></i></label>
-  <input type="text" name="name" id="name" placeholder="Nombre" required/>
-    <label id="icon" for="name"><i class="icon-user "></i></label>
-  <input type="text" name="name" id="name" placeholder="Nombre Empresa" required/>
-    <label id="icon" for="name"><i class="icon-user "></i></label>
-  <input type="text" name="name" id="name" placeholder="RUT Empresa" required/>
-<label id="icon" for="name"><i class="icon-envelope "></i></label>
-  <input type="text" name="name" id="name" placeholder="E-mail" required/>
-  <label id="icon" for="name"><i class="icon-shield"></i></label>
-  <input type="password" name="name" id="name" placeholder="Password" required/>
-  <div class="gender">
-    <input type="radio" value="None" id="male" name="gender" checked/>
-    <label for="male" class="radio" chec>Demo gratuito por un día.</label>
-    <input type="radio" value="None" id="female" name="gender" />
-    <label for="female" class="radio">Básico</label>
-     <input type="radio" value="None" id="female" name="gender" />
-    <label for="female" class="radio">Pro</label>
-     <input type="radio" value="None" id="female" name="gender" />
-    <label for="female" class="radio">Premium</label>
-   </div> 
-   <p>Al registrarte declaras estar de acuerdo con nuestros <a href="#">terminos y condiciones</a>.</p>
-   <a href="#" class="button">Regístrate</a>
-  </form>
-</div>
-#xxx
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-	<h1>My Registration Form</h1>
+	<p></p>
+	<label for="email">Email</label>
+	<input type="text" id=email name="email">
 
-	<form>
-		<label for="first_name">First Name:</label>
-		<input type="text" id="first_name" name="first_name">
+	<p></p>
+	<label for="password">Password</label>
+	<input type="password" id="password" name="password">
 
-		<p></p>
-		<label for="last_name">Last Name:</label>
-		<input type="text" id="last_name" name="last_name">
+	<p></p>
+	<label for="pwconfirm">PW Confirm</label>
+	<input type="password" id="pwconfirm" name="pwconfirm">
 
-		<p></p>
-		<label for="email">Email</label>
-		<input type="text" id=email name="email">
+	<p></p>
+	<label for="datetime-local">Birthday</label>
+	<input type="datetime-local" id="datetime-local" name="datetime-local">
 
-		<p></p>
-		<label for="password">Password</label>
-		<input type="password" id="password" name="password">
+	<p></p>
+	<label for="male">Male</label>
+	<input type="radio" id=male name="gender" value="male">
+	<label for="female">Female</label>
+	<input type="radio" id=female name="gender" value="female">
+	<label for="other">Other</label>
+	<input type="radio" id=decline name="gender" value="decline">
 
-		<p></p>
-		<label for="pwconfirm">PW Confirm</label>
-		<input type="password" id="pwconfirm" name="pwconfirm">
+	<p>Say a few words about yourself:</p>
+	<textarea name="description"></textarea>
 
-		<p></p>
-		<label for="datetime-local">Birthday</label>
-		<input type="datetime-local" id="datetime-local" name="datetime-local">
+	<p></p>
+	Favorite Language	<select>
+		
+		<option value="javascript">Javascript</option>
+		<option value="testing">Testing</option>
+	</select>
 
-		<p></p>
-		<label for="male">Male</label>
-		<input type="radio" id=male name="gender" value="male">
-		<label for="female">Female</label>
-		<input type="radio" id=female name="gender" value="female">
-		<label for="other">Other</label>
-		<input type="radio" id=decline name="gender" value="decline">
-
-		<p>Say a few words about yourself:</p>
-		<textarea name="description"></textarea>
-
-		<p></p>
-		Favorite Language	<select>
-			
-			<option value="javascript">Javascript</option>
-			<option value="testing">Testing</option>
-		</select>
-
-		<p></p>
-		<input type="submit" value="Submit">
+	<p></p>
+	<input type="submit" value="Submit">
 
 
 
 
-	</form>
-
-</body>
-</html>
+</form>
 
 ## XXXX
 <!DOCTYPE html>
