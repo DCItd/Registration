@@ -3,7 +3,7 @@
 <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>    
     
 Gender:<space>
-<label>Male<input type="radio" name="gender" value="male"></label> <
+<label>Male<input type="radio" name="gender" value="male"></label>
 <label>Female<input type="radio" name="gender" value="female"></label> 
 <label>Other<input type="radio" name="gender"  value="decline"></label> <space> <space> <space> <space>
 Marriage Status:
@@ -16,11 +16,8 @@ Marriage Status:
 <space> <space> <space>
 <div class="form-item box-item">
 <input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
-          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
-          <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
-          <small class="errorChar"><i class="fa fa-asterisk" aria-hidden="true"></i> must be 10 digits</small>
-        </div>
-        <div class="form-item">
+
+<div class="form-item">
           <span id="submit" class="submit">Submit</span>
         </div>
     </form>
