@@ -6,14 +6,39 @@
         <h1>Dean Counseling Inc. Registration Information</h1>
     </head>
     <body>
-        <h3>    
+        <h4>    
             <p>
-             <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle"    placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>
-                <p>
-                <label>Male<input type="radio" name="gender" value="male"></label>
-                <label>Female<input type="radio" name="gender" value="female"></label>
-                <label>Other<input type="radio" name="gender" value="decline"></label>
-            <p>
+<input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle"    placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>
+
+<label>Male<input type="radio" name="gender" value="male"></label>
+<label>Female<input type="radio" name="gender" value="female"></label>
+<label>Other<input type="radio" name="gender" value="decline"></label>
+
+
+ </div>
+        <div class="form-item-double box-item">
+          <div class="form-item ">
+            <input type="text" name="strNumber" placeholder="Street Number" data-required data-number>
+            <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+            <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
+          </div>
+          <div class="form-item">
+            <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>
+            <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+            <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
+          </div>
+        </div>
+        <div class="form-item box-item">
+          <input type="text" name="phone" placeholder="Phone" data-required data-number data-count="10">
+          <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
+          <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
+          <small class="errorChar"><i class="fa fa-asterisk" aria-hidden="true"></i> must be 10 digits</small>
+        </div>
+        <div class="form-item">
+          <span id="submit" class="submit">Submit</span>
+        </div>
+      </form>
+            
                 
 ## XXXX
 <!DOCTYPE html>
@@ -122,7 +147,7 @@
         </div>
         <div class="form-item-double box-item">
           <div class="form-item ">
-            <input type="text" name="strNumber" placeholder="Str Number" data-required data-number>
+            <input type="text" name="strNumber" placeholder="Street Number" data-required data-number>
             <small class="errorReq"><i class="fa fa-asterisk" aria-hidden="true"></i> required field</small>
             <small class="errorNum"><i class="fa fa-asterisk" aria-hidden="true"></i> must be a number</small>
           </div>
