@@ -22,16 +22,21 @@ Marriage Status:
     <body>
         <h4>    
             <p>
-                <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>  <label>Favorite Language</label> 
-                <select name="Language">
-                    <option value="JavaScript">JavaScript</option>
-                    <option value="Python">Python</option>
-                    <option value="C++">C++</option>
-                </select>  
+                <input type="text" name="name" placeholder="Frist Name" data-required> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name"> <space> <space> <space> <input type="text" name="nameFamily" placeholder="Last Name" data-required>   
             <p>
             </p>
             <p>
-                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <input type="text" name="age" placeholder="Age"> <space> <space> <space> <input type="text" name="nameMiddle" placeholder="Middle Name">
+                <label> Birthday:<input type="date" name="birthday"></label> <space> <space> <space> <input type="number" name="age" placeholder="Age"> <space> <space> <space> <label>Favorite Language</label> 
+                <select name="Education Level">
+                    <option value="Elementary School">ElementarySchool</option>
+                    <option value="Middle School">MiddleSchool</option>
+                    <option value="High School">HighSchool</option>
+                    <option value="Sum College">SumCollege</option>
+                    <option value="Associate Degree">AssociateDegree</option>
+                    <option value="Bachelor's Degree">BachelorDegree</option>
+                    <option value="Master's Degree">MasterDegree</option>
+                    <option value="Doctoral Degree">DoctoralDegree</option>
+                </select>  
             </p>
             <p>
                 <lable>Email:<input type="text" name="email"></lable>
