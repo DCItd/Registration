@@ -19,49 +19,47 @@
                     <option value="Bachelor's Degree">BachelorDegree</option>
                     <option value="Master's Degree">MasterDegree</option>
                     <option value="Doctoral Degree">DoctoralDegree</option>           
+                <select>
             <p>
             </p>
             <p>
-              <label class="label">Gender</label>
+              <label for="label">Gender</label>
               <div class="form-item"> 
               <input id="Male" type="radio" name="gender" value="Male" data-once>
               <label for="Male">Male</label>
               <div class="form-item"> 
               <input id="Female" type="radio" name="gender" value="Female" data-once>
               <label for="Female">Female</label>
+              <input id="Other" type="radio" name="gender" value="Other" data-once>
+              <label for="Other">Other</label>
+            <p>
             </p>
             <p>
                <input type="text" name="adress" placeholder="Address Of Participant" data-required data-number>        
                <input type="text" name="city" placeholder="city" data-required data-number> <space> <space> <input type="text" name="state" placeholder="State" data-required data-number> <space> <space> <input type="text" name="zCode" placeholder="Zip Code" data-required data-number>  
+            <p>
             </p>
             <p>
                 <label> PW Confirm:<input type="password" name="password"></label>
+            <p>
             </p>
             <p>
                <input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
+            <p>
             </p>
             <p>
                 <lable>Email:<input type="text" name="email"></lable>
+            <p>
             </p>
             <p>
                 <label>Password:<input type="password" name="password"></label>
+            <p>
             </p>
             <p>
                 <label> PW Confirm:<input type="password" name="password"></label>
+            <p>
             </p>
             <p>
-            <div class="radio-label"> 
-              <label class="label">Gender</label>
-            </div>
-            <div class="form-item"> 
-              <input id="Male" type="radio" name="gender" value="Male" data-once>
-              <label for="Male">Male</label>
-            </div>
-            <div class="form-item"> 
-              <input id="Female" type="radio" name="gender" value="Female" data-once>
-              <label for="Female">Female</label>
-            </div>
-          </div>
                 Gender:    
 <label>Male <input type="radio" name="gender" value="male"></label>
 <label>Female <input type="radio" name="gender" value="female"></label> 
@@ -70,26 +68,27 @@
 <label>Single <input type="radio" name="marriage" value="Single"></label>
 <label>Married <input type="radio" name="marriage" value="Married"></label>
 <label>Divorced <input type="radio" name="marriage" value="Divorced"></label>   
-
+            <p>
             </p>
             <p>
                 <label>Male<input type="radio" name="gender" value="male"></label>
                 <label>Female<input type="radio" name="gender" value="female"></label>
                 <label>Other<input type="radio" name="gender" value="decline"></label>
             <p>
-                <label>A short description about yourself:</label>
             </p>
             <p>
-                <textarea name="A short description about yourself:"></textarea>
+                <label>Breif description of your mental health history:</label>
+            <p>
+                <textarea name="Breif description of mental health history:"></textarea>
+            <p>
             </p>
             <p>
-                <label>Favorite Language</label> 
-                <select name="Language">
-                    <option value="JavaScript">JavaScript</option>
-                    <option value="Python">Python</option>
-                    <option value="C++">C++</option>
-                </select>
+                <label>Main reasons of seeking services are:</label>
+            <p>
+                <textarea name="Main reasons of seeking services are:"></textarea>
+            <p>
             </p>
+            <p>
         </h3>
     </body>
 </form>
