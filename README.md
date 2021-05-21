@@ -39,7 +39,7 @@
             <p>
             </p>
             <p>
-               <input type="text" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="text" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="text" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
+               <input type="tel" name="phoneCell" placeholder="Cell Phone" data-required data-number data-count="10"> <space> <space> <input type="tel" name="phoneHome" placeholder="Home Phone" data-required data-number data-count="10">  <space> <space> <input type="tel" name="phoneWork" placeholder="Work Phone" data-required data-number data-count="10">
             <p>
             </p>
             <p>
